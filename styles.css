@@ -1,0 +1,27 @@
+body {
+    color: white;
+    text-align: center;
+}
+table, td, th {
+    border: 1px solid black;
+}
+td:nth-of-type(2n+2) {
+    background-color: blue;
+}
+td:nth-of-type(2n+3) {
+    background-color: red;
+}
+
+td:hover {
+    width: 40%;
+}
+td:first-child {
+    font-weight: bold;
+    background-color: black;
+}
+tr:last-child {
+    height: 22px;
+}
+td:empty {
+    display: none;
+}
