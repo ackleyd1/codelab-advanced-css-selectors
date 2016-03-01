@@ -19,8 +19,8 @@ td:first-child {
     font-weight: bold;
     background-color: black;
 }
-tr:last-child {
-    height: 22px;
+td:last-child {
+    background-color: red;
 }
 td:empty {
     display: none;
